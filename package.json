@@ -1,0 +1,33 @@
+{
+  "name": "crawling-express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "nodemon src/index.ts && ts-node src/index.ts",
+    "watch-ts": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinsunee/crawling-express-example.git"
+  },
+  "author": "jinsunee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinsunee/crawling-express-example/issues"
+  },
+  "homepage": "https://github.com/jinsunee/crawling-express-example#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2"
+  }
+}
